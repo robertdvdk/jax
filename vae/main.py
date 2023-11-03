@@ -1,12 +1,3 @@
-"""
-Author: Robert van der Klis
-
-What does this module do
-
-Usage: python3 ...
-"""
-
-
 # Import statements
 import jax
 import jax.numpy as jnp
@@ -20,7 +11,6 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import os
-from torch.distributions.multivariate_normal import MultivariateNormal
 
 # Function definitions
 class VAE(nn.Module):
